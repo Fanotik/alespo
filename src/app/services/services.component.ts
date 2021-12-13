@@ -1,3 +1,4 @@
+import { getLocaleExtraDayPeriodRules } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,11 +6,6 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './services.component.html',
   styleUrls: ['./services.component.scss']
 })
-export class ServicesComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class ServicesComponent {
+  
 }
